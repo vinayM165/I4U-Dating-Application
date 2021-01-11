@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/back_navigation"/>
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"
+        android:gravity="center_horizontal"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_background"
+        android:textAlignment="center"
+        android:hint="Password"
+        android:id="@+id/login_password"
+        android:inputType="textPassword"
+        android:layout_marginTop="42dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign up"
+        android:id="@+id/txt_signup"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/login_login_btn"
+        android:layout_width="175dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/button_background"
+        android:text="Log in"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

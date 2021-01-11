@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#455cde</color>
+    <color name="colorPrimaryDark">#403d3d</color>
+    <color name="colorAccent">#c2bdbf</color>
+    <color name="colorBlack">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="intro_title_color">#FFFFFF</color>
+    <color name="colorGreen">#4cab03</color>
+    <color name="colorWindow">?android:attr/windowBackground</color>
+    <color name="colorback">#fece2f</color>
+    <color name="colorbackedt">#76000000</color>
+    <color name="colorprogress">#F10808</color>
+    <color name="orange">#FF6E40</color>
+    <color name="iconorange">#FFB950</color>
+    <color name="black">#000000</color>
+    <color name="stroke_color" >#EC509CF3</color>
+    <color name="Toolbar_color">#FFB03A</color>
+    <color name="tab_indicator_gray">#00ffff</color>
+    <color name="gradient_start_color">#FFB03A</color>
+    <color name="purple_200">#673AB7</color>
+    <color name="purple_500">#232A4E</color>
+    <color name="purple_700">#2541DC</color>
+    <color name="teal_200">#F44336</color>
+    <color name="teal_700">#68211C</color>
+    <color name="red_700">#87251E</color>
+    <color name="b">#009688</color>
+</resources>
